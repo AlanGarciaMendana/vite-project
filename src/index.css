@@ -1,0 +1,168 @@
+body {
+  
+background-color: #747687 ;
+
+}
+*{
+  margin: 0;
+  color: #eef0f1;
+}
+h2{
+  color: #f8e592;
+  font-family: 'Motiva Sans', sans-serif;
+}
+
+.Navbar--list{
+  text-align: center;
+  justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin-top: 40px;
+  max-width: 1280px;
+    margin-right: 350px;
+
+}
+.Navbar--list a{
+    
+    color: #f8e592;
+    font-family: 'Motiva Sans', sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 1s ease;
+}
+.Navbar--list a:hover{
+  color: rgb(137, 136, 168);
+  text-decoration:underline;
+  text-decoration-thickness:unset;
+}
+.logo{
+  display: flex;
+    text-align: center;
+    justify-content: center;
+    scale:3;
+    z-index: -1;
+    
+}
+.carrito-compras{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.banner_1{
+    margin: auto;
+    height: 500px;
+    text-align: center;
+    justify-content: center;
+}   
+
+header{
+    margin:0 40px;
+    display: flex;
+    position: sticky;
+    top:0;
+    max-height: 100px;
+    justify-content: space-between;
+    background-color: rgb(51, 51, 87);
+    padding: 10px;
+    border-radius: 30px;
+}
+.ofertasdesc{
+  padding: 5px;
+    margin-left: 105px;
+    justify-content: left;
+    text-align: left;
+}
+Main{
+  justify-content: space-around;
+  display: flex;
+  margin: auto;
+  
+}
+.CartaItem{
+  font-size: 12px;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 20px;
+  border: 2px;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Motiva Sans', sans-serif;
+  padding: 10px;
+  background-color: rgb(111, 126, 187);
+  width: 150px;
+  height: 200px; 
+}
+
+
+.botonescant{
+  background: linear-gradient(90deg, rgba(2,0,36,0.6223739495798319) 0%, rgba(9,9,121,0.6503851540616247) 35%, rgba(38,0,255,0.468312324929972) 100%);
+    border: none;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 10%;
+    height: 25px;
+
+}
+.agregacarrito{
+  background: linear-gradient(90deg, rgba(2,0,36,0.6223739495798319) 0%, rgba(9,9,121,0.6503851540616247) 35%, rgba(38,0,255,0.468312324929972) 100%);
+    border: none;
+  font-size: 13px;
+  border-radius: 10px;
+  height: 25px;
+  margin-top:5px;
+}
+.Tarjeta_ofertas span{
+    font-weight: bolder;
+    font-size: 20px;
+    padding : 0 20px;
+}
+.imgofertas{
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgb(189, 196, 237);
+  
+}
+.Carrito {
+  justify-content: center;
+text-align: center;
+  font-family: 'Motiva Sans', sans-serif;
+  font-size: 40px;
+  padding: 5px;
+
+}
+.Footer{
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  position:fixed;
+  bottom: 0;
+  background-color: black;
+  background-size: cover;
+  width: 100vw;
+  margin: 0;
+}
+.Navbar--list-footer{
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+}
+.Navbar--list-footer a{
+  text-decoration: none;
+  color: #f8e592;
+  font-family: 'Motiva Sans', sans-serif;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.footer-div{
+
+  margin: auto;
+}
+.productos{
+display: flex;
+margin: auto;
+gap:10px;
+}
+
+
+
