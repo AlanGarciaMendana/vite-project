@@ -4,12 +4,23 @@ background-color: #747687 ;
 
 }
 *{
-  margin: 0;
+  margin: 0 auto;
   color: #eef0f1;
+  
 }
 h2{
   color: #f8e592;
   font-family: 'Motiva Sans', sans-serif;
+}
+button{
+  justify-content: center;
+  text-align: center;
+  height: fit-content;
+  width: fit-content;
+  font-family: 'Motiva Sans', sans-serif;
+  margin: auto;
+  color: black;
+  background-color: white;
 }
 
 .Navbar--list{
@@ -40,7 +51,7 @@ h2{
   display: flex;
     text-align: center;
     justify-content: center;
-    scale:3;
+    scale:1;
     z-index: -1;
     
 }
@@ -49,12 +60,26 @@ h2{
     margin-right: 20px;
 }
 .banner_1{
-    margin: auto;
+    margin:auto;
     height: 500px;
-    text-align: center;
-    justify-content: center;
+    padding: 5px;
 }   
-
+.contenedorbanner{
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.carritito{
+  font-size: 50px;
+  justify-content: center;
+  text-align: center;
+  color: #f8e592;
+    font-family: 'Motiva Sans', sans-serif;
+ 
+}
+.carritito1{
+  text-decoration: none;
+}
 header{
     margin:0 40px;
     display: flex;
@@ -76,6 +101,7 @@ Main{
   justify-content: space-around;
   display: flex;
   margin: auto;
+  margin-bottom: 150px;
   
 }
 .CartaItem{
@@ -91,7 +117,24 @@ Main{
   width: 150px;
   height: 200px; 
 }
+.CartaItem2{
+  display: flex;
+  font-size: 20px;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 20px;
+  border: 2px;
+  font-family: 'Motiva Sans', sans-serif;
+  padding: 10px;
+  background-color: rgb(111, 126, 187);
+  margin: 30px auto;
+  width: 500px;
+  
 
+}
+.terminarcompra{display: flex;
+  justify-content: center;
+text-align: center;
+margin: auto;}
 
 .botonescant{
   background: linear-gradient(90deg, rgba(2,0,36,0.6223739495798319) 0%, rgba(9,9,121,0.6503851540616247) 35%, rgba(38,0,255,0.468312324929972) 100%);
@@ -127,6 +170,7 @@ text-align: center;
   font-family: 'Motiva Sans', sans-serif;
   font-size: 40px;
   padding: 5px;
+  text-decoration: none;
 
 }
 .Footer{
@@ -145,8 +189,9 @@ text-align: center;
   justify-content: center;
   text-decoration: none;
   list-style: none;
+  z-index: 1;
 }
-.Navbar--list-footer a{
+.Navbar--list--item-footer{
   text-decoration: none;
   color: #f8e592;
   font-family: 'Motiva Sans', sans-serif;
@@ -164,5 +209,88 @@ margin: auto;
 gap:10px;
 }
 
+.VerMas{
+  color:black;
+  border-radius: 20px;
+  justify-content: center;
+  font-weight: bolder;
+  background-color: white;
+  padding: 0 10px;
 
+}
+.CartaItem img{
+  width: 150px;
+  border-radius: 10px;
+}
+.CartaItem2 img{
+  width: 150px;
+  border-radius: 10px;
+}
+.Pagina-Item{
+text-align: center;
+justify-content: center;
+margin:auto;
+font-family: 'Motiva Sans', sans-serif;
+}
+.Pagina-Item img{
+  border-radius: 20px;
 
+}
+.Pagina-Item button{
+  Color:black;
+  font-size: 1,5rem;
+  justify-content: center;
+  border-radius: 5px;
+  font-family: 'Motiva Sans', sans-serif;
+}
+.CategoriasLista{
+  justify-content: center;
+  text-align: center;
+  margin:auto;
+}
+.categorias--list{
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    margin-top: 400px;
+}
+.categorias--list--item a{
+  color:white;
+  font-family: 'Motiva Sans', sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+  transition: 1s ease;
+}
+
+.ProductosLista{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+}
+.carritopag{
+ text-align: center;
+ justify-content: center;
+  margin:10px;
+  display: block;
+  gap:200px;
+}
+.itemdetail{
+text-align: left;
+  justify-content: left;
+  margin: auto;
+}
+input{
+  margin-top:5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  display: flex;
+  background-color: black;
+  color: yellow;
+}

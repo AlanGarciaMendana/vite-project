@@ -1,17 +1,14 @@
 
-import caloventor from "../assets/caloventor.png"
-import cepilloEle from "../assets/Cepilloelectrico.png"
-import microhondas from "../assets/microhondas.png"
-
-export const Items=({id,name,description,price,image}) =>{
+import { Link } from "react-router-dom"
+export const Items=({id,name,price,img}) =>{
 
 return(
 
     <div className="CartaItem">
-        <img src={image} alt={name} />
+        <img src={img} alt={name} />
         <h2> {name}</h2>
-        <p>{description}</p>
         <p>${price}</p>
+        <Link className="VerMas" to={`/productos/${id}`} >Ver Mas</Link>
     </div>
 
 )
