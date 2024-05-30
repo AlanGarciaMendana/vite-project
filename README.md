@@ -3,7 +3,7 @@
 
 Entrega final del curso React JS comision  60755 por ALAN GARCIA MENDAÑA
 Deploy en VERCEL:
-https://vite-project-nine-psi.vercel.app/carrito
+https://vite-project-nine-psi.vercel.app/
 
 El proyecto se trate de una E-commerce con lista de productos, categorias y una pagina por cada producto donde explaya sus detalles. Cuenta con un carrito donde se almacenan todos los productos que agreguemos y nos arroja un total de la compra. A su vez se almacena en una base de datos con algunos datos del usuario.
 
