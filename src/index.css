@@ -202,7 +202,7 @@ text-align: center;
 }
 .footer-div{
   max-width:500px;
-  margin: auto;
+  margin: auto 50px;
 }
 .productos{
 display: flex;
