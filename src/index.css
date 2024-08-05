@@ -297,3 +297,7 @@ input{
   background-color: black;
   color: yellow;
 }
+.navbar{
+  
+  justify-content:space-around;
+}
