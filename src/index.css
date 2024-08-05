@@ -105,6 +105,7 @@ Main{
   
 }
 .CartaItem{
+  margin: 5px;
   font-size: 12px;
   box-shadow: 2px 2px 20px black;
   border-radius: 20px;
