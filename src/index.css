@@ -70,6 +70,8 @@ button{
   display: flex;
 }
 .carritito{
+  display:flex;
+  margin:auto;
   font-size: 50px;
   justify-content: center;
   text-align: center;
