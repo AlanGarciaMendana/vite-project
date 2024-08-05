@@ -201,7 +201,7 @@ text-align: center;
   margin: auto;
 }
 .footer-div{
-
+  max-width:500px;
   margin: auto;
 }
 .productos{
