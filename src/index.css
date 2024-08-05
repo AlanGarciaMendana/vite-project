@@ -25,13 +25,11 @@ button{
 
 .Navbar--list{
   text-align: center;
-  justify-content: center;
+  justify-content: space-between;
     display: flex;
     list-style: none;
     gap: 35px;
-    margin-top: 40px;
-  max-width: 1280px;
-    margin-right: 350px;
+
 
 }
 .Navbar--list a{
